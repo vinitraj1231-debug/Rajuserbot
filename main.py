@@ -19,7 +19,7 @@ API_ID   = int(os.getenv("TELEGRAM_API_ID"))
 API_HASH = os.getenv("TELEGRAM_API_HASH")
 SESSION  = os.getenv("SESSION_NAME", "zyno_session")
 
-TRIGGER_WORDS = ["zyno", "zyna", "hey zyno", "zyno!"]
+TRIGGER_WORDS = ["raj", "priya", "hey raj", "priya!"]
 BOT_USERNAME  = os.getenv("BOT_USERNAME", "").lower()   # optional self-username
 
 # ─── Logging ─────────────────────────────────────────────────────────────────
